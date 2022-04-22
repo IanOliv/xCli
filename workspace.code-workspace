@@ -1,0 +1,71 @@
+{
+	"folders": [
+		{
+			"name": "tests",
+			"path": "src/__tests__"
+		},
+		{
+			"name": "commands",
+			"path": "src/commands"
+		},
+		{
+			"name": "utils",
+			"path": "src/utils"
+		},
+		{
+			"name": "@types",
+			"path": "src/@types"
+		},
+		{
+			"name": "src",
+			"path": "src",
+			
+		},
+		{
+			"name": "_",
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#b07613",
+			"activityBar.activeBorder": "#09563a",
+			"activityBar.background": "#b07613",
+			"activityBar.foreground": "#e7e7e7",
+			"activityBar.inactiveForeground": "#e7e7e799",
+			"activityBarBadge.background": "#09563a",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"sash.hoverBorder": "#b07613",
+			"statusBar.background": "#82570e",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#b07613",
+			"statusBarItem.remoteBackground": "#82570e",
+			"statusBarItem.remoteForeground": "#e7e7e7",
+			"titleBar.activeBackground": "#82570e",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#82570e99",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+		"peacock.color": "#82570e"
+	},
+	"extensions": {
+		"vscode.test-resolver": {
+			"id": "vscode.test-resolver",
+			"version": "0.1.0",
+			"publisher": "vscode",
+			"isBuiltin": true,
+			"engines": {
+				"vscode": "^1.33.0"
+			}
+		}
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [{
+			"label": "My Task",
+			"type": "shell",
+			"command": "echo Hello",
+			"problemMatcher": []
+		}]
+	}
+}

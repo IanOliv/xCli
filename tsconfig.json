@@ -20,8 +20,19 @@
     "outDir": "build",
     "strict": false,
     "target": "es5",
-    "declaration": true,
-    "declarationDir": "build/types"
+    "baseUrl": "./",
+    "paths": {
+      "@base/*": ["src/*"],
+      "@utils/*": ["src/utils/*"],
+      "#mocks/*": ["src/__tests__/__mocks__/*"],
+      "@types/*": ["src/@types/*"],
+      "@types": ["src/@types/index.d.ts"],
+      "@commands/*": ["src/commands/*"]
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
